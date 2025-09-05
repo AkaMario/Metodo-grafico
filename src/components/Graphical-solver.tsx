@@ -190,7 +190,7 @@ export function GraphicalSolver({ objectiveFunction, optimizationType, constrain
 
       // Marcar vértices
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
-      feasibleRegion.forEach((vertex, index) => {
+      feasibleRegion.forEach((vertex) => {
         const canvasPoint = toCanvas(vertex.x, vertex.y)
         ctx.fillStyle = "#1F2937"
         ctx.beginPath()
