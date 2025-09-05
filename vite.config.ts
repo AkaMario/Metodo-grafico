@@ -11,5 +11,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "https://akamario.github.io/Metodo-grafico/",
+  base: "https://AkaMario.github.io/Metodo-grafico",
 })
